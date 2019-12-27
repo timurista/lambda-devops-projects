@@ -1,0 +1,6 @@
+*/.secrets
+*/*/.terraform
+terraform/.terraform/*
+terraform-*
+terraform/.terraform/plugins/darwin_amd64/lock.json
+terraform/.terraform/plugins/darwin_amd64/terraform-provider-aws_v2.43.0_x4
