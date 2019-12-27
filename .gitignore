@@ -2,5 +2,13 @@
 */*/.terraform
 terraform/.terraform/*
 terraform-*
-terraform/.terraform/plugins/darwin_amd64/lock.json
-terraform/.terraform/plugins/darwin_amd64/terraform-provider-aws_v2.43.0_x4
+terraform/.terraform/plugins/*
+lambda-sqs-trigger/terraform/sqs/.terraform/*
+lambda_function.zip
+
+# we are not going to store state locally
+terraform.tfstate
+terraform.tfstate.backup
+
+# mac stuff
+.DS_Store

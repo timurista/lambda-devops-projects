@@ -1,6 +1,6 @@
 # Project to create a lambda that puts a message into dynamodb
 
-![AWS SQS Architecture](https://photos.google.com/album/AF1QipO-OOEQMkxk-G8sd7IqsjfRqtBp4fHGyxtJ5nFL/photo/AF1QipO9w-uMWMndYIfYqk2rH1V1qXUA-qSUR_hfJiW5)
+![AWS SQS Architecture](https://photos.app.goo.gl/VNTQCYgvp8jJ1pRt8)
 ## Step 1: Terraform modules
 In this first part we will create a terraform file to load the various pieces we will need.
 ```sh
