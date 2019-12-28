@@ -1,3 +1,5 @@
+# terraform/main
+
 variable "aws_default_region" {
   type = string
 }
@@ -9,7 +11,6 @@ variable "aws_access_key" {
 variable "aws_secret_key" {
   type = string
 }
-
 
 
 provider "aws" {

@@ -1,3 +1,5 @@
+# sqs/main
+
 resource "aws_sqs_queue" "log_message_queue" {
   name                      = "sqs_log_message_queue"
   delay_seconds             = 90
@@ -11,6 +13,6 @@ resource "aws_sqs_queue" "log_message_queue" {
 }
 
 output "sqs_queue" {
-  value       = aws_sqs_queue.log_message_queue.id
+  value       = aws_sqs_queue.log_message_queue.arn
   description = "The name of the sqs queue for logging messages"
 }

@@ -1,3 +1,5 @@
+# lambda/main
+
 variable "sqs_queue" {}
 
 resource "aws_iam_role" "iam_for_lambda" {
