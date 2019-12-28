@@ -13,6 +13,6 @@ resource "aws_sqs_queue" "log_message_queue" {
 }
 
 output "sqs_queue" {
-  value       = aws_sqs_queue.log_message_queue.arn
+  value       = aws_sqs_queue.log_message_queue
   description = "The name of the sqs queue for logging messages"
 }

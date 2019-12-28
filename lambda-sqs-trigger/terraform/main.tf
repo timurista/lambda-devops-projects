@@ -23,7 +23,16 @@ module "sqs" {
     source ="./sqs"
 }
 
+module "dynamo" {
+    source ="./dynamo"
+}
+
 module "lambda" {
     source = "./lambda"
     sqs_queue = "${module.sqs.sqs_queue}"
+    dynamo_table = "${module.dynamo.message_table}"
+}
+
+output "sqs_queue_name" {
+  value = module.sqs.sqs_queue.name
 }

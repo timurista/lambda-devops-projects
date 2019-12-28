@@ -25,3 +25,6 @@ output "sqs_queue" {
 
 ## Testing the module
 In part 1 we 
+
+running the lambda
+`python3 ./send_message.py -q "sqs_log_message_queue" -i 0.1`
